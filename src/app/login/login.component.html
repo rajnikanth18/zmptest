@@ -1,0 +1,31 @@
+
+    <div class="form-box">
+        <mat-card-content>
+            
+            <form class="my-form">
+                <h2>Login</h2>  
+                <table class="example-full-width" cellspacing="0">
+                    <tr>
+                      <td>
+                        <mat-form-field class="example-full-width">
+                            <input matInput placeholder="Username" [(ngModel)]="username" name="username" required>
+                            </mat-form-field>
+                      </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <mat-form-field class="example-full-width">
+                            <input matInput placeholder="Password" [(ngModel)]="password"type="password" name="password" required>
+                          </mat-form-field>
+                </td>
+                  </tr>
+                
+                </table>         
+                   
+            </form>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-raised-button (click)="login()" color="accent">Login</button>
+          </mat-card-actions>
+                 <p>Create new account? <a [routerLink]="'/register'" class="primary">Click here</a></p>
+            </div>

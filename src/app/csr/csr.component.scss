@@ -1,0 +1,19 @@
+.example-container .mat-form-field + .mat-form-field {
+    margin-left: 8px;
+  }
+
+  .my-form{
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+   
+  .full-width {
+    width: 100%;
+  }
+
+  .form-box{display: flex; flex-wrap: wrap; margin: 5% auto; width: 60%;}
+.example-full-width{width: 600px;}
+.mat-form-field{width:100%;}
+.mat-radio-button{margin:0 10px;}
+.mat-card-actions{margin-top:0px; margin-bottom: 20px; width:100%;}
